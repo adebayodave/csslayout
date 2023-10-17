@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 12%;
+    margin-top: 20px;
+}
+
+header nav {
+    margin-left: 400px;
+    display: inline;
+}
+
+nav a {
+    color: rgb(178, 171, 171);
+    margin-right: 40px;
+}
+
+nav a:hover {
+    color: rgb(0, 179, 155);
+}
+
+nav #abt {
+    color: rgb(0, 179, 155);
+}
+
+main {
+    width: 100vw;
+}
+
+main #logo {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+main h1 {
+    text-align: center;
+    color: rgb(0, 179, 155);
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 1;
+    font: lighter
+}
+
+main .p {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 300px;
+}
+
+main .p p {
+    margin-right: 40px;
+    text-align: left;
+    color: rgb(178, 171, 171);
+}
+
+
+/* styling of the entire container */
+
+main #container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+/* the styling of the first con1 */
+
+main #container .con1 {
+    background-color: rgb(0, 204, 177);
+    height: 255px;
+    padding: 50px;
+    margin-right: 20px;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+main #container .con1 i {
+    color: white;
+}
+
+main #container .con1 h2 {
+    color: white;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+main #container .con1 p {
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+main #container .con1 .select {
+    background-color: rgb(0, 204, 177);
+    box-sizing: border-box;
+    border: none;
+    text-decoration: underline;
+}
+
+
+/* styling for the second con2 */
+
+main #container .con2 {
+    background-color: rgb(61, 131, 223);
+    height: 255px;
+    padding: 50px;
+    margin-right: 20px;
+    width: 12vw;
+    border-radius: 10px;
+}
+
+main #container .con2 i {
+    color: white;
+}
+
+main #container .con2 h2 {
+    color: white;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+main #container .con2 p {
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+main #container .con2 .select {
+    background-color: rgb(61, 131, 223);
+    box-sizing: border-box;
+    border: none;
+    text-decoration: underline;
+}
+
+
+/* styling of the third con3 */
+
+main #container .con3 {
+    background-color: rgb(27, 39, 52);
+    height: 255px;
+    padding: 50px;
+    margin-right: 20px;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+main #container .con3 i {
+    color: white;
+}
+
+main #container .con3 h2 {
+    color: white;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+main #container .con3 p {
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+main #container .con3 .select {
+    background-color: rgb(27, 39, 52);
+    box-sizing: border-box;
+    border: none;
+    text-decoration: underline;
+}
+
+
+/* End of the container */
+
+#logos {
+    display: flex;
+    align-items: center;
+}
+
+#logos .left {
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+#logos .left p {
+    color: rgb(0, 204, 177);
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+#logos .signlogos {
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#logos .signlogos img {
+    margin: 20px;
+}
+
+section {
+    background-color: rgb(208, 250, 244);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+
+/*--styling the section smallicon--*/
+
+section .smallcon {
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+section .biglogo {
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+section .biglogo h1 {
+    color: rgb(0, 185, 191);
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+section .biglogo p {
+    text-align: center;
+    color: rgb(137, 116, 116);
+    font-size: large;
+}
+
+
+/*--styling the small1--*/
+
+section .smallcon .small1 {
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 12vw;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+section .smallcon .small1 i {
+    color: rgb(0, 204, 177);
+}
+
+section .smallcon .small1 h1 {
+    color: rgb(0, 204, 177);
+}
+
+section .smallcon .small1 p {
+    color: rgb(137, 116, 116);
+}
+
+
+/*-- small2--*/
+
+section .smallcon .small2 {
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 12vw;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+section .smallcon .small2 i {
+    color: rgb(0, 204, 177);
+}
+
+section .smallcon .small2 h1 {
+    color: rgb(0, 204, 177);
+}
+
+section .smallcon .small2 p {
+    color: rgb(137, 116, 116);
+}
+
+
+/*--small3--*/
+
+section .smallcon .small3 {
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 12vw;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+section .smallcon .small3 i {
+    color: rgb(0, 204, 177);
+}
+
+section .smallcon .small3 h1 {
+    color: rgb(0, 204, 177);
+}
+
+section .smallcon .small3 p {
+    color: rgb(137, 116, 116);
+}
+
+
+/*--small4--*/
+
+section .smallcon .small4 {
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 12vw;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+section .smallcon .small4 i {
+    color: rgb(0, 204, 177);
+}
+
+section .smallcon .small4 h1 {
+    color: rgb(0, 204, 177);
+}
+
+section .smallcon .small4 p {
+    color: rgb(137, 116, 116);
+}
+
+.after h1 {
+    text-align: center;
+    color: rgb(0, 204, 177);
+    font-weight: lighter;
+}
+
+.after p {
+    text-align: center;
+    color: rgb(137, 116, 116);
+}
+
+
+/*--LARGE PICS OF COUNTRY--*/
+
+#largepic {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+#largepic .pic .pic_p {
+    display: flex;
+}
+
+#largepic .pic .pic_p p {
+    color: rgb(116, 116, 116);
+}
+
+#largepic .pic .pic_p .pp {
+    color: white;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: rgb(61, 131, 223);
+    padding: 10px;
+    margin-left: 115px;
+}
+
+#last {
+    color: rgb(116, 116, 116);
+    text-align: center;
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+button {
+    color: white;
+    background-color: rgb(61, 131, 223);
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid;
+    margin: 0 auto;
+}
