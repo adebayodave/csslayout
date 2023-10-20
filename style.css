@@ -409,12 +409,14 @@ section .smallcon .small4 p {
     text-align: center;
 }
 
-#foot span {
-    color: blue;
+#foot span a {
+    color: rgb(61, 131, 223);
+    text-decoration: none;
 }
 
-#foot span:hover {
-    color: rgb(51, 163, 221);
+#foot span a:hover {
+    color: rgb(0, 0, 24);
+    text-decoration: underline;
 }
 
 #foot2 {
