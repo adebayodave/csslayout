@@ -394,11 +394,35 @@ section .smallcon .small4 p {
     font-weight: lighter;
 }
 
-button {
+#last+h6 {
     color: white;
     background-color: rgb(61, 131, 223);
-    align-items: center;
-    border-radius: 4px;
-    border: 1px solid;
-    margin: 0 auto;
+    text-align: center;
+    margin: 0px 43%;
+    padding: 12px;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+#foot {
+    color: rgb(116, 116, 116);
+    text-align: center;
+}
+
+#foot span {
+    color: blue;
+}
+
+#foot span:hover {
+    color: rgb(51, 163, 221);
+}
+
+#foot2 {
+    text-align: center;
+    color: rgb(116, 116, 116);
+}
+
+#foot2+p {
+    text-align: center;
+    color: rgb(116, 116, 116);
 }
