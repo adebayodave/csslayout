@@ -10,14 +10,14 @@ header {
     justify-content: space-around;
     margin-top: 20px;
 }
-#menu{
+
+#menu {
     display: none;
 }
-#logo1{
-    width:300px;
+
+#logo1 {
+    width: 300px;
 }
-
-
 
 nav a {
     color: rgb(178, 171, 171);
@@ -32,7 +32,7 @@ nav #abt {
     color: rgb(0, 179, 155);
 }
 
-main{
+main {
     width: 100vw;
 }
 
@@ -51,14 +51,14 @@ main{
     font: lighter
 }
 
-.p{
+.p {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 40px;
 }
 
-.p p{
+.p p {
     text-align: left;
     color: rgb(178, 171, 171);
 }
@@ -252,46 +252,53 @@ section .biglogo p {
 
 /*--styling the small1--*/
 
-section .smallcon .small1 {
+.rightcon {
+    margin-top: 20px;
+}
+
+.smallcon .small1 {
     background-color: white;
     margin: 10px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     width: 12vw;
-    margin-right: 20px;
-    margin-top: 30px;
+    height: 40%;
+    /* margin-right: 20px;
+    margin-top: 30px; */
 }
 
-section .smallcon .small1 i {
+.smallcon .small1 i {
     color: rgb(0, 204, 177);
 }
 
-section .smallcon .small1 h1 {
+.smallcon .small1 h1 {
     color: rgb(0, 204, 177);
 }
 
-section .smallcon .small1 p {
+.smallcon .small1 p {
     color: rgb(137, 116, 116);
+    font-size: small;
 }
 
 
 /*-- small2--*/
 
-section .smallcon .small2 {
+.smallcon .small2 {
     background-color: white;
     margin: 10px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     width: 12vw;
-    margin-right: 20px;
-    margin-top: 10px;
+    height: 40%;
+    /* margin-right: 20px;
+    margin-top: 10px; */
 }
 
-section .smallcon .small2 i {
+.smallcon .small2 i {
     color: rgb(0, 204, 177);
 }
 
-section .smallcon .small2 h1 {
+.smallcon .small2 h1 {
     color: rgb(0, 204, 177);
 }
 
@@ -302,50 +309,52 @@ section .smallcon .small2 p {
 
 /*--small3--*/
 
-section .smallcon .small3 {
+.smallcon .small3 {
     background-color: white;
     margin: 10px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     width: 12vw;
-    margin-right: 20px;
-    margin-top: 30px;
+    height: 40%;
+    /* margin-right: 20px;
+    margin-top: 30px; */
 }
 
-section .smallcon .small3 i {
+.smallcon .small3 i {
     color: rgb(0, 204, 177);
 }
 
-section .smallcon .small3 h1 {
+.smallcon .small3 h1 {
     color: rgb(0, 204, 177);
 }
 
-section .smallcon .small3 p {
+.smallcon .small3 p {
     color: rgb(137, 116, 116);
 }
 
 
 /*--small4--*/
 
-section .smallcon .small4 {
+.smallcon .small4 {
     background-color: white;
     margin: 10px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     width: 12vw;
-    margin-right: 20px;
-    margin-top: 10px;
+    height: 40%;
+    /* margin-right: 20px;
+    margin-top: 10px; */
 }
 
-section .smallcon .small4 i {
+.smallcon .small4 i {
     color: rgb(0, 204, 177);
 }
 
-section .smallcon .small4 h1 {
+.smallcon .small4 h1 {
     color: rgb(0, 204, 177);
 }
 
-section .smallcon .small4 p {
+.smallcon .small4 p {
     color: rgb(137, 116, 116);
 }
 
@@ -431,26 +440,26 @@ section .smallcon .small4 p {
     color: rgb(116, 116, 116);
 }
 
-@media (max-width: 576px) { 
-    nav{
+@media (max-width: 576px) {
+    nav {
         display: none;
     }
-    #menu{
+    #menu {
         display: inline;
         width: 20px;
     }
-    #logo1{
-        width:200px;
+    #logo1 {
+        width: 200px;
     }
-    .p{
+    .p {
         flex-direction: column;
         gap: 10px;
     }
-    .p p{
+    .p p {
         text-align: center;
         font-size: smaller;
     }
-    #container{
+    #container {
         flex-direction: column;
         gap: 20px;
         align-items: center;
@@ -461,18 +470,14 @@ section .smallcon .small4 p {
         border-radius: 10px;
         flex-wrap: wrap;
     }
-    .inner{
+    .inner {
         width: 80%;
         margin: auto;
     }
-    .inner h2{
-        font-size: large; 
+    .inner h2 {
+        font-size: large;
     }
-    .inner p{
+    .inner p {
         font-size: medium;
-
     }
-
-    
-
 }
